@@ -1,252 +1,125 @@
 /* CSS Document */
 body {
-	background-color: white;
-	background-image: url("img/bgbg.png");
-	background-repeat: repeat-x;
-	text-align: center;
+	background-image: url("images/bg.png");
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  outline: 0px;
+  border: 0px;
+  font-family: arial;
+
 }
 
-#bgtelo {
-        background-image: url(img/bgpct.png);
-        background-repeat: no-repeat;
-        margin: 0px auto;
-        width: 990px;
-        height: 100%;
-        }
-        
-#obal_hlava {
-	margin: 0px auto;
-	text-align: left;
-	width: 902px;
+#top
+{
+background-image: url(images/bgtop.png);
+text-align: center;
+margin: 0px auto;
+padding-top: 40px;
+
+}                       
+
+#hlava {
+  margin: 0px auto;
+  text-align: center;
+  height: 130px;
+	width: 999px;
 }
 
-a.uvod {
-	display: block;
-	float: left;
-	width: 114px;
+
+#menu {
+	background-color: #16285a;
+  width: 999px;
 	height: 40px;
-	background-image: url(img/uvod.png)
+  margin: 0px auto 0px auto;
+  text-align: center;
 }
 
-a.cerpadla {
-	display: block;
-	float: left;
-	width: 131px;
-	height: 40px;
-	background-image: url(img/cerpadla.png)
+#links
+{
+font-size: 20px;
+padding-top: 10px;
+text-align: center;
 }
-
-a.klimatizace {
-	display: block;
-	float: left;
-	width: 97px;
-	height: 40px;
-	background-image: url(img/klimatizace.png)
-}
-
-a.solary {
-	display: block;
-	float: left;
-	width: 117px;
-	height: 40px;
-	background-image: url(img/solary.png)
-}
-
-a.vytapeni {
-	display: block;
-	float: left;
-	width: 121px;
-	height: 40px;
-	background-image: url(img/vytapeni.png)
-}
-
-a.doporuc {
-    display: block;
-    float: left;
-    width: 115px;
-    height: 40px;
-    background-image: url(img/doporuc.png)
-    }
-a.montaze {
-	display: block;
-	float: left;
-	width: 116px;
-	height: 40px;
-	background-image: url(img/montaze.png)
-}
-a.kontakt {
-	display: block;
-	float: left;
-	width: 74px;
-	height: 40px;
-	background-image: url(img/kontakt.png)
-}
-
-a:hover.uvod {
-	display: block;
-	float: left;
-	width: 114px;
-	height: 40px;
-	background-image: url(img/uvod2.png)
-}
-
-a:hover.cerpadla {
-	display: block;
-	float: left;
-	width: 131px;
-	height: 40px;
-	background-image: url(img/cerpadla2.png)
-}
-
-a:hover.solary {
-	display: block;
-	float: left;
-	width: 117px;
-	height: 40px;
-	background-image: url(img/solary2.png)
-}
-
-a:hover.vytapeni {
-	display: block;
-	float: left;
-	width: 121px;
-	height: 40px;
-	background-image: url(img/vytapeni2.png)
-}
-
-a:hover.doporuc {
-    display: block;
-    float: left;
-    width: 115px;
-    height: 40px;
-    background-image: url(img/doporuc2.png)
-    }
-a:hover.montaze {
-	display: block;
-	float: left;
-	width: 116px;
-	height: 40px;
-	background-image: url(img/montaze2.png)
-}
-a:hover.kontakt {
-	display: block;
-	float: left;
-	width: 74px;
-	height: 40px;
-	background-image: url(img/kontakt2.png)
-}
-
-#menul {
-	background-image: url(img/menul.png);
-	width: 7px;
-	height: 40px;
-	float: left
-}
-#menur {
-	background-image: url(img/menur.png);
-	width: 10px;
-	height: 40px;
-	float: left
-}
-
-#vypln {
-  display: block;
-	float: left;
-	width: 97px;
-	height: 40px;
-	background-image: url(img/vypln.png)
-}
-
-#centermenu {
-	padding-top: 140px;
-	margin: 0px auto;
-	text-align: left;
-	width: 902px;
-}
-
 
 #main {
-      width: 902px;
+      width: 999px;
+      height: 100%;
       margin: 0px auto;
-      text-align: left;
-      
+      text-align: center;
+      height: 100%;
+      background-color: white;
+      border-width: 0px 1px 1px 1px;
+      border-color: black;
+      border-style: dashed;
       }
-      
-#podmenu {
-      float: left;
-      width: 200px;
-      height: 640px;
-      max-height: 100%; 
-      background-image: url(img/bg.png);
-      color: #006600;
-      font-size: 14px;
-      }
-      
-ul li {list-style-type: square;
-      }
-
-#podmenu ul li a {text-decoration: none;
-                       color: #006600;
-                       }
-            
-#podmenu ul li a:visited {text-decoration: none;
-                       color: #006600;
-                       }
-                       
-#podmenu ul li a:hover {text-decoration: underline;
-                       color: blue;
-                       }
-                       
-#podmenu ul li a:active {text-decoration: underline;
-                       color: blue;
-                       }
-                                                                                                     
-a {text-decoration: underline;
-                       color: blue;
-                       }
-            
-a:visited {text-decoration: underline;
-                       color: blue;
-                       }
-                       
-a:hover {text-decoration: none;
-                       color: #006600;
-                       }
-                       
-a:active {text-decoration: none;
-                       color: #006600;
-                       }
-
-h1 {
-    font-family: tahoma;
-    font-size: 20px;
-  }
-  
-h2 {
-    font-family: tahoma;
-    font-size: 22px;
-    }
-    
-h3 {
-    font-family: tahoma;
-    font-size: 16px;
-    }
-    
-    
+          
 #hlavni {
-        width: 702px;
+        width: 770px;
+        height: 100%;
+        margin: 0px;
         font-size: 15px;
+        font-family: verdana;
+        text-align: left;
         float: left;
-        text-align: center;
-        padding-top: 0px;
-        padding-bottom: 100px;
-        margin-top: 0px;
+        padding: 0px 15px 0px 15px;
         
         }
- 
-#certifikaty
-      {
-      margin-top: 200px;
-      text-align: center;
+        
+#side
+{
+width: 188px;
+height: 100%;
+padding-left: 10px;
+background-color: white;
+float: right;
+background-color: white;
+border-width: 0px 0px 0px 1px;
+border-style: dashed;
+border-color: black;
       
-      }        
+}
+
+#pata
+{
+height: 10px;
+padding-bottom: 1px;
+color: white;
+}
+
+                                                                                                   
+a
+{
+text-decoration: underline;
+color: white;
+display: block;
+width: 150px;
+float: left;
+}
+            
+a:visited
+{
+text-decoration: underline;
+color: white;
+display: block;
+width: 150px;
+float: left;
+}
+                       
+a:hover
+{
+text-decoration: none;
+color: white;
+display: block;
+width: 150px;
+}
+                       
+a:active
+{
+text-decoration: none;
+color: white;
+display: block;
+width: 150px;
+}
+    
+
