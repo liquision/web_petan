@@ -1,0 +1,252 @@
+/* CSS Document */
+body {
+	background-color: white;
+	background-image: url("img/bgbg.png");
+	background-repeat: repeat-x;
+	text-align: center;
+}
+
+#bgtelo {
+        background-image: url(img/bgpct.png);
+        background-repeat: no-repeat;
+        margin: 0px auto;
+        width: 990px;
+        height: 100%;
+        }
+        
+#obal_hlava {
+	margin: 0px auto;
+	text-align: left;
+	width: 902px;
+}
+
+a.uvod {
+	display: block;
+	float: left;
+	width: 114px;
+	height: 40px;
+	background-image: url(img/uvod.png)
+}
+
+a.cerpadla {
+	display: block;
+	float: left;
+	width: 131px;
+	height: 40px;
+	background-image: url(img/cerpadla.png)
+}
+
+a.klimatizace {
+	display: block;
+	float: left;
+	width: 97px;
+	height: 40px;
+	background-image: url(img/klimatizace.png)
+}
+
+a.solary {
+	display: block;
+	float: left;
+	width: 117px;
+	height: 40px;
+	background-image: url(img/solary.png)
+}
+
+a.vytapeni {
+	display: block;
+	float: left;
+	width: 121px;
+	height: 40px;
+	background-image: url(img/vytapeni.png)
+}
+
+a.doporuc {
+    display: block;
+    float: left;
+    width: 115px;
+    height: 40px;
+    background-image: url(img/doporuc.png)
+    }
+a.montaze {
+	display: block;
+	float: left;
+	width: 116px;
+	height: 40px;
+	background-image: url(img/montaze.png)
+}
+a.kontakt {
+	display: block;
+	float: left;
+	width: 74px;
+	height: 40px;
+	background-image: url(img/kontakt.png)
+}
+
+a:hover.uvod {
+	display: block;
+	float: left;
+	width: 114px;
+	height: 40px;
+	background-image: url(img/uvod2.png)
+}
+
+a:hover.cerpadla {
+	display: block;
+	float: left;
+	width: 131px;
+	height: 40px;
+	background-image: url(img/cerpadla2.png)
+}
+
+a:hover.solary {
+	display: block;
+	float: left;
+	width: 117px;
+	height: 40px;
+	background-image: url(img/solary2.png)
+}
+
+a:hover.vytapeni {
+	display: block;
+	float: left;
+	width: 121px;
+	height: 40px;
+	background-image: url(img/vytapeni2.png)
+}
+
+a:hover.doporuc {
+    display: block;
+    float: left;
+    width: 115px;
+    height: 40px;
+    background-image: url(img/doporuc2.png)
+    }
+a:hover.montaze {
+	display: block;
+	float: left;
+	width: 116px;
+	height: 40px;
+	background-image: url(img/montaze2.png)
+}
+a:hover.kontakt {
+	display: block;
+	float: left;
+	width: 74px;
+	height: 40px;
+	background-image: url(img/kontakt2.png)
+}
+
+#menul {
+	background-image: url(img/menul.png);
+	width: 7px;
+	height: 40px;
+	float: left
+}
+#menur {
+	background-image: url(img/menur.png);
+	width: 10px;
+	height: 40px;
+	float: left
+}
+
+#vypln {
+  display: block;
+	float: left;
+	width: 97px;
+	height: 40px;
+	background-image: url(img/vypln.png)
+}
+
+#centermenu {
+	padding-top: 140px;
+	margin: 0px auto;
+	text-align: left;
+	width: 902px;
+}
+
+
+#main {
+      width: 902px;
+      margin: 0px auto;
+      text-align: left;
+      
+      }
+      
+#podmenu {
+      float: left;
+      width: 200px;
+      height: 640px;
+      max-height: 100%; 
+      background-image: url(img/bg.png);
+      color: #006600;
+      font-size: 14px;
+      }
+      
+ul li {list-style-type: square;
+      }
+
+#podmenu ul li a {text-decoration: none;
+                       color: #006600;
+                       }
+            
+#podmenu ul li a:visited {text-decoration: none;
+                       color: #006600;
+                       }
+                       
+#podmenu ul li a:hover {text-decoration: underline;
+                       color: blue;
+                       }
+                       
+#podmenu ul li a:active {text-decoration: underline;
+                       color: blue;
+                       }
+                                                                                                     
+a {text-decoration: underline;
+                       color: blue;
+                       }
+            
+a:visited {text-decoration: underline;
+                       color: blue;
+                       }
+                       
+a:hover {text-decoration: none;
+                       color: #006600;
+                       }
+                       
+a:active {text-decoration: none;
+                       color: #006600;
+                       }
+
+h1 {
+    font-family: tahoma;
+    font-size: 20px;
+  }
+  
+h2 {
+    font-family: tahoma;
+    font-size: 22px;
+    }
+    
+h3 {
+    font-family: tahoma;
+    font-size: 16px;
+    }
+    
+    
+#hlavni {
+        width: 702px;
+        font-size: 15px;
+        float: left;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 100px;
+        margin-top: 0px;
+        
+        }
+ 
+#certifikaty
+      {
+      margin-top: 200px;
+      text-align: center;
+      
+      }        
